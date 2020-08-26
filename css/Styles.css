@@ -1,0 +1,168 @@
+@font-face{
+    font-family: "ranchers";
+    src: url("../Fonts/Shadows_Into_Light/ShadowsIntoLight-Regular.ttf");
+}
+
+@font-face{
+    font-family: "dosis";
+    src: url("../Fonts/Dosis/Dosis-VariableFont_wght.ttf");
+}
+
+h1, h2, h3, h4{
+    font-family: "ranchers";
+    text-align: center;
+    color: white;
+}
+
+h1{
+    font-size: 80px;
+}
+
+p{
+    font-family: "dosis";
+    text-align: center;
+    color: white;
+}
+
+#contentInfoAbout{
+    text-align: center;
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+
+.btn-about{
+    margin-left: 2px;
+    margin-right: 2px;
+    width: 200px;
+}
+#contentDescAbout{
+    text-align: center;
+}
+
+#contentDescAbout p{
+    text-align: justify;
+}
+
+.cardExperience{
+    text-align: center;
+    background-color: #7e4d83ce;
+    border-radius: 10px 10px 10px 10px;
+    -moz-border-radius: 10px 10px 10px 10px;
+    -webkit-border-radius: 10px 10px 10px 10px;
+    border: 0px solid #000000;
+    padding: 15px;
+}
+
+.contentCardExperience{
+    padding: 5px;
+}
+
+#rowExperience .col-4 .row{
+    padding: 10px;
+} 
+
+.cardSkills{
+    text-align: center;
+}
+
+.aboutMeSection{
+    background-color: #440e49;
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+img{
+    border-radius: 20px 20px 20px 20px;
+    -moz-border-radius:  20px 20px 20px 20px;
+    -webkit-border-radius: 20px 20px 20px 20px;
+    border: 2px solid #13490e;
+
+    /* -webkit-box-shadow: -25px 17px 27px 5px #452440;
+    -moz-box-shadow: -25px 17px 27px 5px#452440;
+    box-shadow: -25px 17px 27px 5px#452440; */
+}
+
+.cardServices{
+    background-color: #0b7b23da;
+    text-align: center;
+    color: #360f3a;
+    margin: 5px;
+    border-radius: 20px 20px 20px 20px;
+    -moz-border-radius:  20px 20px 20px 20px;
+    -webkit-border-radius: 20px 20px 20px 20px;
+    border: 5px solid #723D6A;
+}
+
+.contentIconService i{
+    font-size: 60px;
+    color: #0b7b23da;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.contentIconService{
+    background-color: #440e49e5;
+    margin-top: 30px;
+    width: 100%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+#rowServices{
+    background-image: url('../img/image-Services.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+#contentServices{
+    background-color: #5a1361a9;
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+#contactSection{
+    padding-top: 70px;
+    padding-bottom: 70px;
+    text-align: center;
+    background-color: #440e49;
+}
+
+.iconContact{
+    color: snow;
+    font-size: 25px;
+}
+
+footer{
+    width: 100%;
+}
+
+#contentFooter{
+    padding-top: 50px;
+    background-color: rgb(68, 57, 71);
+    text-align: left !important;
+}
+
+#contentFooter a{
+    color: snow;
+}
+
+#contentFooter div div div p{
+    text-align: left !important;
+}
+
+#contentTwoFooter{
+    text-align: center;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    background-color: black;
+}
+
+#contentTwoFooter p{
+    margin-bottom: 0px;
+}
+
+
+
+
+

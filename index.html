@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nelly Chersan</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- css particles -->
+    <link rel="stylesheet" media="screen" href="css/particles.css">
+    <link rel="stylesheet" href="css/Styles.css">
+    <link rel="stylesheet" href="css/circle.css">
+    <link rel="stylesheet" href="css/icofont.min.css">
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">Nelly Chersan</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto"></ul>
+            <form class="form-inline my-2 my-lg-0">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#bannerHome">HOME</a>
+                    </li>
+
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#banerAboutMe">ABOUT ME</a>
+                    </li>
+
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#rowServices">SERVICES</a>
+                    </li>
+
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#contactSection">CONTACT</a>
+                    </li>
+                </ul>
+            </form>
+        </div>
+    </nav>
+    <div class="container-fluid">        
+        <!-- section Home -->
+        <div class="row" id="bannerHome">
+            <div id="particles-js">
+                <div class="col-md-6 offset-md-3"
+                    style="color:rgb(244, 245, 248); position: absolute; margin-top: 200px;">
+                    <h1>Hi! I am Nelly</h1>
+                    <p>Attached to nothing, connected with everything</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- section About me -->
+        <div class="row aboutMeSection" id="banerAboutMe">
+            <div class="col-10 offset-1">
+                <div class="row">
+                    <div class="col-12 col-sm-6 col-md-6 col-xl-6 col-lg-6">
+                        <img src="img/image-About.jpg" alt="Nelly Chersan" width="100%">
+                    </div>
+
+                    <div class="col-12 col-sm-6 col-md-6 col-xl-6 col-lg-6" id="contentDescAbout">
+                        <h2>About Me</h2>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Delectus consequuntur, minus
+                            dolorem accusamus ipsum repellat omnis possimus nostrum. Veritatis a earum aliquam quae quo
+                            facilis ducimus laborum consectetur, ut error!</p>
+                        <br>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magni, repellat. Quaerat et quae
+                            odit ab alias facere eveniet amet sint sapiente esse libero natus expedita dolores, iusto,
+                            repellat ipsa maxime!</p>
+                        <br>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus dolorum quis dignissimos
+                            quod molestias minus delectus, quo incidunt earum odit optio suscipit nobis! Inventore
+                            accusantium iusto assumenda animi autem error?</p>
+                        <button class="btn btn-success btn-about">Hire Me</button>
+                        <button class="btn btn-success btn-about">Download Resume</button>
+                    </div>
+                </div>
+
+                <div class="row" id="contentInfoAbout">
+                    <div class="col-12">
+                        <button class="btn btn-outline-success btn-about"
+                            onclick="aboutMe('experience');">Experience</button>
+                        <button class="btn btn-outline-success btn-about"
+                            onclick="aboutMe('education');">Education</button>
+                        <button class="btn btn-outline-success btn-about" onclick="aboutMe('skills');">Skills</button>
+                        <button class="btn btn-outline-success btn-about"
+                            onclick="aboutMe('languages');">Languages</button>
+                    </div>
+                </div>
+
+                <div class="row sectionAbout" id="rowExperience">
+                    <div class="col-12">
+                        <h3>Work Experience</h3>
+                        <hr>
+                        <br>
+                    </div>
+                    <div class="col-12 col-sm-12 col-md-12 col-lg-4 col-xl-4">
+                        <div class="row contentCardExperience" >
+                            <div class="col-12 cardExperience">
+                                <p>Feb 2018 - Current</p>
+                                <hr>
+                                <h3>Treshna Enterprises</h3>
+                                <p>Helpdesk support</p>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse veniam exercitationem
+                                    nostrum sed id, facilis aut sapiente perferendis assumenda placeat, soluta error
+                                    ipsam quia enim libero ipsum fugiat? Vel, deleniti!</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-sm-12 col-md-12 col-lg-4 col-xl-4">
+                        <div class="row contentCardExperience">
+                            <div class="col-12 cardExperience">
+                                <p>Feb 2018 - Current</p>
+                                <hr>
+                                <h3>Treshna Enterprises</h3>
+                                <p>Helpdesk support</p>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse veniam exercitationem
+                                    nostrum sed id, facilis aut sapiente perferendis assumenda placeat, soluta error
+                                    ipsam quia enim libero ipsum fugiat? Vel, deleniti!</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-sm-12 col-md-12 col-lg-4 col-xl-4">
+                        <div class="row contentCardExperience">
+                            <div class="col-12 cardExperience">
+                                <p>Feb 2018 - Current</p>
+                                <hr>
+                                <h3>Treshna Enterprises</h3>
+                                <p>Helpdesk support</p>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse veniam exercitationem
+                                    nostrum sed id, facilis aut sapiente perferendis assumenda placeat, soluta error
+                                    ipsam quia enim libero ipsum fugiat? Vel, deleniti!</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row sectionAbout" id="rowEducation">
+                    <div class="col-12">
+                        <h3>Education</h3>
+                    </div>
+                </div>
+
+                <div class="row sectionAbout" id="rowSkills">
+                    <div class="col-12">
+                        <h3>Skills</h3>
+                        <hr>
+                        <div class="row">
+                            <div class="col-4 cardSkills">
+                                <div class="c100 p12 medium">
+                                    <span>12%</span>
+                                    <div class="slice">
+                                        <div class="bar"></div>
+                                        <div class="fill"></div>
+                                    </div>
+                                </div>
+
+                                <h4>HTML</h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row sectionAbout" id="rowLanguages">
+                    <div class="col-12">
+                        <h3>Languages</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- section Services -->
+        <div class="row" id="rowServices">
+            <div class="col-12" id="contentServices">
+                <div class="row">
+                    <div class="col-10 offset-1">
+                        <h2>Services I offer</h2>
+                        <div class="row">
+                            <div class="col-12 col-sm-6 col-md-6 col-xl-4 col-lg-4">
+                                <div class="row" style="padding: 5px">
+                                    <div class="col cardServices">
+                                        <div class="contentIconService">
+                                            <i class="icofont-code-alt"></i>
+                                        </div>
+                                        <br>
+                                        <h3>Development</h3>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus illo dolores,
+                                            optio dolor alias reprehenderit quas labore quae quod soluta atque
+                                            architecto perferendis harum, vero laudantium possimus est! Id, dignissimos.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-12 col-sm-6 col-md-6 col-xl-4 col-lg-4">
+                                <div class="row" style="padding: 5px">
+                                    <div class="col cardServices">
+                                        <div class="contentIconService">
+                                            <i class="icofont-code-alt"></i>
+                                        </div>
+                                        <br>
+                                        <h3>Customer support ninja</h3>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus illo dolores,
+                                            optio dolor alias reprehenderit quas labore quae quod soluta atque
+                                            architecto perferendis harum, vero laudantium possimus est! Id, dignissimos.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-12 col-sm-6 col-md-6 col-xl-4 col-lg-4">
+                                <div class="row" style="padding: 5px;">
+                                    <div class="col cardServices">
+                                        <div class="contentIconService">
+                                            <i class="icofont-code-alt"></i>
+                                        </div>
+                                        <br>
+                                        <h3>Development</h3>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus illo dolores,
+                                            optio dolor alias reprehenderit quas labore quae quod soluta atque
+                                            architecto perferendis harum, vero laudantium possimus est! Id, dignissimos.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- section Contact -->
+        <div class="row" id="contactSection">
+            <div class="col-10 offset-1">
+                <h2>Contact Me</h2>
+                <p>Please fill the form below. I will contact you as soon as possible.</p>
+                <form action="">
+                    <div class="row">
+                        <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6">
+                            <div class="form-group">
+                                <input type="text" required="true" class="form-control" placeholder="Jane Doe">
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-6">
+                            <div class="form-group">
+                                <input type="email" required="true" class="form-control" placeholder="your@email.here">
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+                            <div class="form-group">
+                                <input type="text" required="false" class="form-control" placeholder="Subject">
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+                            <div class="form-group">
+                                <textarea name="Message" id="" cols="30" rows="10" class="form-control"
+                                    placeholder="Your Message"></textarea>
+                            </div>
+                            <div class="form-group">
+                                <div class="col-1">
+                                    <button class="btn btn-success btn-about">Send Message</button>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+        <!-- section Footer -->
+        <div class="row">
+            <footer>
+                <div class="col">
+                    <div class="row" id="contentFooter">
+                        <div class="col-10 offset-1 col-sm-10 offset-sm-1 col-md-10 offset-md-1 col-lg-10 offset-lg-1 col-xl-10 offset-xl-1">
+                            <div class="row">
+                                <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4">
+                                    <br>
+                                    <h3>
+                                        Wanna talk?
+                                    </h3>
+                                    <br>
+                                    <a href="tel:5527729918">
+                                        <i class="icofont-ui-dial-phone iconContact"></i>
+                                        5527729918
+                                    </a>
+                                    <br>
+                                    <br>
+                                    <a href="mailto:nechersan@yahoo.com">  
+                                        <i class="icofont-ui-message iconContact"></i>
+                                        nechersan@yahoo.com
+                                    </a>
+                                    <br>
+                                    <br>
+                                    <a href="https://www.instagram.com/nellychersan/" target="_blanck">
+                                            <i class="icofont-instagram iconContact"></i>
+                                            @nellychersan
+                                    </a>
+                                    <br>
+                                    <br>
+                                    <a href="https://www.linkedin.com/in/nellyherrera">
+                                        <i class="icofont-linkedin iconContact"></i>
+                                        /nellyherrera
+                                    </a>
+                                </div>
+                                <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4">
+                                    <br>
+                                    <h3>
+                                        My Services
+                                    </h3>
+                                    <br>
+                                    <p>
+                                        Web development
+                                    </p>
+                                    <p>
+                                        Customer support ninja
+                                    </p>
+                                    <p>
+                                        Web design
+                                    </p>
+                                </div>
+                                <div class="col-12 col-sm-12 col-md-12 col-lg-4 col-xl-4">
+                                    <br>
+                                    <h3>
+                                        Newsletter
+                                    </h3>
+                                    <br>
+                                    <p>
+                                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto in placeat debitis amet nam itaque ullam iusto assumenda laboriosam perspiciatis distinctio repudiandae eum obcaecati eveniet, illum similique eaque doloribus quis!
+                                    </p>
+                                    <form action="">
+                                        <div class="form-group">
+                                            <input type="text" class="form-control" placeholder="your@email.here" required="true">
+                                        </div>
+                                        <div class="form-group">
+                                            <button class="btn btn-success btn-about">
+                                                Send
+                                            </button>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="row" id="contentTwoFooter">
+                        <div class="col">
+                            <p>
+                                <i class="icofont-copyright"></i>
+                                2020 copyright: example.com
+                            </p>
+                            <p>
+                                All rights reserved.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+        </div>
+    </div>
+
+    <!-- js particles -->
+    <script src="js/particles/particles.js"></script>
+    <script src="js/particles/app.js"></script>
+    <script src="js/particles/lib/stats.js"></script>
+    <script src="js/jquery-3-1-5.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- My Scripts js -->
+    <script src="js/scripts.js"></script>
+</body>
+</html>
